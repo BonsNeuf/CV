@@ -1,6 +1,7 @@
 /********************** Tag Selectors **************************/
 body
   {
+    color: #40514E;
     font-family: 'Lora', serif;
     margin: 0;
     text-align: center;
@@ -18,6 +19,7 @@ h2
     font-family: 'Comfortaa', cursive;
     font-size: 2.5rem;
     font-weight: normal;
+    padding-bottom: 10px;
   }
 h3
   {
@@ -26,8 +28,8 @@ h3
   }
 p
   {
-    color: #40514E;
     font-family: "Merriweather" serif;
+    line-height: 2;
   }
 a
   {
@@ -37,13 +39,17 @@ hr   {
         border-style: dotted none none;
         border-top-width: thick;
         color: #EAF6F6;
+        margin: 50px auto;
         width: 5%
   }
   /********************* Class Selectors ***********************/
 .contact-me{
-  padding-bottom: 50px;
+    padding-bottom: 50px;
   }
-
+.contact-message{
+    width: 50%;
+    margin: 40px auto 60px;
+  }
 .topcontainer
   {
     background-color: #EAf6f6;
@@ -52,15 +58,14 @@ hr   {
   }
 .middlecontainer
     {
-      text-align: center;
+      margin: 100px 0;
     }
-  .bottom-container
+.bottom-container
     {
       background-color: #66BFBF;
-      padding-top: 50px;
-      padding-bottom: 50px;
+      padding: 50px 0 30px;
     }
-  .top-cloud
+.top-cloud
     {
       position: absolute;
       right: 250px;
@@ -80,9 +85,13 @@ hr   {
     {
       text-decoration: underline;
     }
+  .intro{
+      width: 50%;
+
+      margin: auto;
+    }
   .skill-row
     {
-      line-height: 2;
       margin: 50px auto 50px auto;
       text-align: left;
       width: 50%;
@@ -142,13 +151,21 @@ hr   {
     color: #11999E;
     font-family: 'Comfortaa', cursive;
     font-weight: normal;
-    margin-right: 30px;
+    margin: 20px 30px;
+    text-decoration: none;
+  }
+  .footer-link:hover{
+    color: #EAF6F6;
+    font-family: 'Comfortaa', cursive;
+    font-weight: normal;
+    margin: 20px 30px;
+    text-decoration: none;
   }
   .footer-copyright{
     color: #EAF6F6;
     font-family: 'Comfortaa', cursive;
     font-size: 0.75rem;
-    margin-top: 30px;
+    padding: 20px 0;
   }
   .profile-img {
   border-radius: 50%;
