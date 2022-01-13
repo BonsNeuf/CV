@@ -1,175 +1,19 @@
-/********************** Tag Selectors **************************/
-body
-  {
-    color: #40514E;
-    font-family: 'Lora', serif;
-    margin: 0;
-    text-align: center;
-  }
-h1
-  {
-    font-family: 'Sacramento', cursive;
-    font-size: 5.625rem;
-    margin: 50px auto 0 auto;
-    color: #66BFBF;
-  }
-h2
-  {
-    color: #66BFBF;
-    font-family: 'Comfortaa', cursive;
-    font-size: 2.5rem;
-    font-weight: normal;
-    padding-bottom: 10px;
-  }
-h3
-  {
-    color: #11999E;
-    font-family: 'Comfortaa', cursive;
-  }
-p
-  {
-    font-family: "Merriweather" serif;
-    line-height: 2;
-  }
-a
-  {
-    color: #11999E;
-  }
+body {
+      background-color: #cefff1
+}
+h1   {
+      color: #66bfbf
+}
+h3   {
+      color: #66bfbf
+}
 hr   {
-        border-style: dotted none none;
-        border-top-width: thick;
-        color: #EAF6F6;
-        margin: 50px auto;
-        width: 5%
-  }
-  /********************* Class Selectors ***********************/
-.contact-me{
-    padding-bottom: 50px;
-  }
-.contact-message{
-    width: 50%;
-    margin: 40px auto 60px;
-  }
-.topcontainer
-  {
-    background-color: #EAf6f6;
-    padding-top: 50px;
-    position: relative;
-  }
-.middlecontainer
-    {
-      margin: 100px 0;
-    }
-.bottom-container
-    {
-      background-color: #66BFBF;
-      padding: 50px 0 30px;
-    }
-.top-cloud
-    {
-      position: absolute;
-      right: 250px;
-      top: 40px;
-    }
-  .top-cloudcontainer
-    {
-      height: 200px;
-    }
-  .bottom-cloud
-    {
-      bottom: 275px;
-      left: 200px;
-      Position: absolute;
-    }
-  .pro-span
-    {
-      text-decoration: underline;
-    }
-  .intro{
-      width: 50%;
+      border-style: dotted none none;
+      border-top-width: thick;
+      color: #8ac6d1;
+      width: 5%
+}
+title {
+      font-family: sans-serif;
 
-      margin: auto;
-    }
-  .skill-row
-    {
-      margin: 50px auto 50px auto;
-      text-align: left;
-      width: 50%;
-    }
-  .monitor-img  {
-      float: left;
-      margin-right: 30px;
-      width: 25%
-    }
-  .brewing-img  {
-      float: right;
-      margin-left: 30px;
-      margin-bottom: 10px;
-      width: 25%
-    }
-  .button {
-    backface-visibility: hidden;
-  position: relative;
-  cursor: pointer;
-  display: inline-block;
-  white-space: nowrap;
-  background: linear-gradient(180deg,#0accc3 0%,#0accb9 49%,#08c0b6 89.21665027859717%,#018c7e 100%);
-  border-radius: 5px;
-  border: 0px solid #ba6;
-  border-width: 0px 0px 0px 0px;
-  padding: 10px 20px 10px 20px;
-  box-shadow: inset 0px 1px 0px #ffffff,0px 1px 3px rgba(0%,0%,0%,0.3);
-    color: #fff;
-  font-size: 16px;
-  font-family: Tahoma;
-  font-weight: 500;
-  font-style: normal;
-  text-shadow: 0px -1px 0px rgba(0%,0%,0%,0.4)
-  }
-  .button > div {
-    color: #999;
-  font-size: 10px;
-  font-family: Helvetica Neue;
-  font-weight: initial;
-  font-style: normal;
-  text-align: center;
-  margin: 0px 0px 0px 0px
-  }
-  .button > i {
-    font-size: 1em;
-  border-radius: 0px;
-  border: 0px solid transparent;
-  border-width: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
-  margin: 0px 0px 0px 0px;
-  position: static
-  }
-  .button > .ld {
-    font-size: initial
-  }
-  .footer-link{
-    color: #11999E;
-    font-family: 'Comfortaa', cursive;
-    font-weight: normal;
-    margin: 20px 30px;
-    text-decoration: none;
-  }
-  .footer-link:hover{
-    color: #EAF6F6;
-    font-family: 'Comfortaa', cursive;
-    font-weight: normal;
-    margin: 20px 30px;
-    text-decoration: none;
-  }
-  .footer-copyright{
-    color: #EAF6F6;
-    font-family: 'Comfortaa', cursive;
-    font-size: 0.75rem;
-    padding: 20px 0;
-  }
-  .profile-img {
-  border-radius: 50%;
-  margin-top: 50px;
-  width: 15%;
-  }
-  /********************* ID Selectors **************************/
+}
